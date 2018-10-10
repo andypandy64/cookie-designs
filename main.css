@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.main {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+input {
+  margin-top: 5rem;
+  height: 5rem;
+  font-size: 3rem;
+  border: none;
+  border-bottom: 1px solid #9F9E9E;
+}
+
+button {
+  background: white;
+  padding: 1rem;
+  border: 3px solid #B07C1D;
+  margin-left: 1rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+input:focus {
+  outline: none;
+}
+
+h2 {
+  font-size: 8rem;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.cookie-image {
+  max-width: 20rem;
+  margin-bottom: 15rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 1rem;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+h2 {
+  margin-bottom: 2rem;
+}
+
+.curious-cookie {
+  max-width: 30rem;
+}
+
+.give-cookie {
+  display: grid;
+  margin: 0 auto;
+  max-width: 1000px;
+  grid-template-columns: auto auto;
+}
+
+.give-cookie img {
+  max-width: 15rem;
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+}
+
+.give-cookie p {
+  grid-column: 1;
+  grid-row: 1;
+  font-size: 4rem;
+  width: max-content;
+  color: #6E4200;
+  font-family: 'Love Ya Like A Sister', cursive;
+  margin: auto 0;
+}
+
+.give-cookie-container {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+}
+
+.give-cookie-container a {
+  border: none;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+
+.thank-you {
+  max-width: 55rem;
+}
